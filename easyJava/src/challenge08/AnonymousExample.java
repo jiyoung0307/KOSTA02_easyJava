@@ -1,7 +1,8 @@
 package easyJava.src.challenge08;
 
 // 이것이 자바다
-// 9장 6번 문제 p423
+// 9장 6번
+// p423
 public class AnonymousExample {
   public static void main(String[] args) {
     Anonymous anony = new Anonymous();
