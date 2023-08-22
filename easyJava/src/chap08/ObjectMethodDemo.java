@@ -1,6 +1,4 @@
-package chapter08;
-
-import java.security.Key;
+package easyJava.src.chap08;
 
 public class ObjectMethodDemo {
   public static void main(String[] args) {

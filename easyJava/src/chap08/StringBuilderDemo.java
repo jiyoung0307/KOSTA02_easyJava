@@ -1,4 +1,4 @@
-package chap08;
+package easyJava.src.chap08;
 
 public class StringBuilderDemo {
   public static void main(String[] args) {
@@ -10,9 +10,8 @@ public class StringBuilderDemo {
     StringBuilder sb = new StringBuilder("hi");
     System.out.println(sb.hashCode());
     sb = sb.append("!");
-    System.out.println(sb.hashCode());System
+    System.out.println(sb.hashCode());
     System.out.println(sb.replace(0, 2, "Good bye").insert(0, "Java, "));
 
-    // git test
   }
 }
