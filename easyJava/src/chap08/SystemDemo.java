@@ -1,6 +1,6 @@
 package easyJava.src.chap08;
 
-public class StstemDemo {
+public class SystemDemo {
   public static void main(String[] args) {
     int[] numbers = new int[1000];
     System.out.println(System.currentTimeMillis());
