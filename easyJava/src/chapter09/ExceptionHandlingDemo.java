@@ -1,13 +1,18 @@
 package easyJava.src.chapter09;
 
+import java.io.BufferedInputStream;
+
 public class ExceptionHandlingDemo {
   public static void main(String[] args) {
-    int i = 0;
-    String s = null;
+    int i = 3;
+    String s = "";
 //    Ctrl + Alt + T => 문장 자동완성 단축키
     try {
       s.length();       // NullPointerException 발생
-      int res = 10/i;   // ArithmeticException 발생
+      int res = 10 / i;   // ArithmeticException 발생
+/*      범위가 작은것부터 처리를 해야함!!! */
+//    } catch (Exception e) {
+//      System.out.println("예외가 발생했습니다.");
     } catch (ArithmeticException e) {
       // 직접 처리
       System.out.println("ArithmeticException 처리 : 0으로 나눌 수 없습니다.");
