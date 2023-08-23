@@ -1,4 +1,4 @@
-package easyJava.src.chapter09;
+package easyJava.src.chapter09.Exception;
 
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;

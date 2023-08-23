@@ -1,4 +1,4 @@
-package easyJava.src.chapter09;
+package easyJava.src.chapter09.Exception;
 
 import java.io.BufferedInputStream;
 

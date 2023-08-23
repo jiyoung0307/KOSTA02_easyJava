@@ -1,4 +1,4 @@
-package easyJava.src.chapter09;
+package easyJava.src.chapter09.Exception;
 
 public class UnChecked2Demo {
   public static void main(String[] args) {
