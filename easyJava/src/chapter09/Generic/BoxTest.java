@@ -1,36 +1,25 @@
 package easyJava.src.chapter09.Generic;
 
-import javax.swing.*;
-import java.util.ArrayList;
-
 public class BoxTest {
   public static void main(String[] args) {
-/**
- * Generic T로 선언
- *
- * class 클래스이름<타입매개변수> {
- * 필드;
- * 메서드;
- * }
- *
- * Generic T로 사용
- * 제네릭클래스 <적용할 타입> 변수 = new 제네릭틀래스<적용할 타입>();
- */
     Box<Integer> i = new Box<>();
+    i.set(Integer.valueOf(10));
+    System.out.println(i.get());
 
-
+    Box<String> s = new Box<>();
+    s.set("만능이네!");
+    System.out.println(s.get());
   }
 }
 
-
-class Box<T> {
+class Box<T>{
   private T value;
 
-  public T getValue() {
+  public T get() {
     return value;
   }
 
-  public void setValue(T value) {
+  public void set(T value) {
     this.value = value;
   }
 }
