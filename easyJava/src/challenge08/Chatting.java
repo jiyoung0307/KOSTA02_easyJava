@@ -13,6 +13,8 @@ public class Chatting {
 
   void startChat(String chatId) {
     /**
+     * [자세한 설명] 이것이 자바다 p404 참고할 것
+     * [해설]
      * nickName은 final의 특성을 갖기 때문에 nickName = chatId처럼 값을 변경할 수 없다.
      * 따라서 String nickName = null;과 nickName = chatId;를 제거하고 대신
      * String nickMame = chatId;를 넣어햐 한다.
