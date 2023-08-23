@@ -1,4 +1,4 @@
-package easyJava.src.chap08;
+package easyJava.src.chapter08;
 
 public class GarbageDemo {
   public static void main(String[] args) {

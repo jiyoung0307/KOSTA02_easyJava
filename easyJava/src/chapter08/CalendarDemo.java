@@ -1,4 +1,4 @@
-package easyJava.src.chap08;
+package easyJava.src.chapter08;
 
 import java.util.Calendar;
 import java.util.Date;
