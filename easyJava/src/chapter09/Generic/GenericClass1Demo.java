@@ -33,30 +33,62 @@ public class GenericClass1Demo {
 
     Cup c = new Cup();
     c.setBeverage(new Boricha());
-    if(c.getBeverage() instanceof Boricha){
+    if (c.getBeverage() instanceof Boricha) {
       Boricha boricha = (Boricha) c.getBeverage();
-    } else if (c.getBeverage() instanceof Beer){
-      Beer beer= (Beer) c.getBeverage();
+    } else if (c.getBeverage() instanceof Beer) {
+      Beer beer = (Beer) c.getBeverage();
     }
 
     c.setBeverage(new Beer());
-    Beer beer= (Beer) c.getBeverage();
+    Beer beer = (Beer) c.getBeverage();
     c.setBeverage(new Beverage());
     c.setBeverage(new Object());
-    beer= (Beer) c.getBeverage();
+//    beer = (Beer) c.getBeverage();    // error 발생
 
+    /**
+     * Generic T로 사용
+     *
+     *제네릭클래스 <적용할 타입> 변수 = new 제네릭틀래스<적용할 타입>();
+     * */
+    Cup<Boricha> borichaCup = new Cup<>();
+    borichaCup.setBeverage(new Boricha());
+    Boricha boricha = borichaCup.getBeverage();
 
+    Cup<Beer> beerCup = new Cup<>();
+    beerCup.setBeverage(new Beer());
+//    beerCup.setBeverage(new Boricha());
+    beer = beerCup.getBeverage();
   }
 }
-class Beverage {}
-class Boricha extends Beverage{}
-class Beer extends Beverage{}
-class Cup {
-  private Object beverage;
-  public Object getBeverage() {
+
+class Beverage {
+}
+
+class Boricha extends Beverage {
+}
+
+class Beer extends Beverage {
+}
+
+/* Generic T로 선언 */
+
+/**
+ * Generic T로 선언
+ *
+ * class 클래스이름<타입매개변수> {
+ * 필드;
+ * 메서드;
+ * }
+ */
+class Cup<T> {
+
+  private T beverage;
+
+  public T getBeverage() {
     return beverage;
   }
-  public void setBeverage(Object beverage) {
+
+  public void setBeverage(T beverage) {
     this.beverage = beverage;
   }
 }
