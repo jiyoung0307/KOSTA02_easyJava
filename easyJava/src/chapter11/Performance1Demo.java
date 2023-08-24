@@ -1,110 +1,65 @@
 package easyJava.src.chapter11;
-/* pull 해올 것 */
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Performance1Demo {
   public static void main(String[] args) {
-    ArrayList<Integer> arrayList = new ArrayList<>();
-    LinkedList<Integer> linkedList = new LinkedList<>();
-
-//    # ArrayList 추가 -> 뒤
+    ArrayList<Integer> al = new ArrayList<>();
+    LinkedList<Integer> ll = new LinkedList<>();
+// arrayList 추가 - 맨뒤에 추가
     long start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      arrayList.add(i);
+    for (int i = 0; i < 100_000 ; i++) {
+      al.add(i);
     }
     long end = System.nanoTime();
-    long arrayListTime = end - start;
-    System.out.println("arrayList 뒤에 값을 추가할 때, " + arrayListTime);
-
-
-    System.out.println("-------------------------------");
-
-//    # ArrayList 추가 -> 앞
+    long arrayList = end - start;
+    System.out.println(arrayList);
+// arrayList 삭제 - 맨뒤에서 삭제
     start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      arrayList.add(0, i);
+    for (int i = 0; i < 100_000 ; i++) {
+      al.remove(al.size() - 1);
     }
     end = System.nanoTime();
-    arrayListTime = end - start;
-    System.out.println("arrayList 앞에 값을 추가할 때, " + arrayListTime);
-
-
-    System.out.println("-------------------------------");
-
-//    # ArrayList 삭제 -> 뒤
+    arrayList = end - start;
+    System.out.println("arraylist 맨 뒤에서 삭제 " + arrayList);
+// arrayList 삭제 - 맨앞에서 삭제
+    for (int i = 0; i < 100_000 ; i++) {
+      al.add(i);
+    }
     start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      arrayList.remove(arrayList.size() - 1);
+    for (int i = 0; i < 100_000 ; i++) {
+      al.remove(0);
     }
     end = System.nanoTime();
-    arrayListTime = end - start;
-    System.out.println("arrayList 뒤에 값을 삭제할 때, " + arrayListTime);
-
-
-    System.out.println("-------------------------------");
-
-//    # ArrayList 삭제 -> 앞
+    arrayList = end - start;
+    System.out.println("arraylist 맨 앞에서 삭제 " +arrayList);
+// linked list 추가
     start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      arrayList.remove(0);
+    for (int i = 0; i < 100_000 ; i++) {
+      ll.add(0,i);
     }
     end = System.nanoTime();
-    arrayListTime = end - start;
-    System.out.println("arrayList 앞에 값을 삭제할 때, " + arrayListTime);
-
-
-    System.out.println("-------------------------------");
-
-//    # LinkedList 추가 -> 뒤
+    long linkedList = end - start;
+    System.out.println(linkedList);
+// linked list 삭제 - 맨앞에서 삭제
     start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      linkedList.add(i);
+    for (int i = 0; i < 100_000 ; i++) {
+      ll.removeFirst();
     }
     end = System.nanoTime();
-    long linkedListTime = end - start;
-    System.out.println("linkedList 뒤에 값을 추가할 때, " + linkedListTime);
-
-
-    System.out.println("-------------------------------");
-
-//    # LinkedList 추가 -> 앞
+    linkedList = end - start;
+    System.out.println(linkedList);
+// linked list 삭제 - 맨뒤에서 삭제
+    for (int i = 0; i < 100_000 ; i++) {
+      ll.add(0,i);
+    }
     start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      linkedList.add(0, i);
+    for (int i = 0; i < 100_000 ; i++) {
+      ll.removeLast();
     }
     end = System.nanoTime();
-    linkedListTime = end - start;
-    System.out.println("linkedList 앞에 값을 추가할 때, " + linkedListTime);
-
-
-    System.out.println("-------------------------------");
-
-//    # LinkedList 삭제 -> 뒤
-    for (int i = 0; i < 100_000; i++) {
-      linkedList.add(0, i);
-    }
-
-    start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      linkedList.removeLast();
-    }
-    end = System.nanoTime();
-    linkedListTime = end - start;
-    System.out.println("linkedList 뒤에서 값을 삭제할 때, " + linkedListTime);
-
-
-    System.out.println("-------------------------------");
-
-//    # LinkedList 삭제 -> 앞
-    start = System.nanoTime();
-    for (int i = 0; i < 100_000; i++) {
-      linkedList.removeFirst();
-    }
-    end = System.nanoTime();
-    linkedListTime = end - start;
-    System.out.println("linkedList 앞에서 값을 삭제할 때, " + linkedListTime);
-
-
+    linkedList = end - start;
+    System.out.println(linkedList);
   }
 }
