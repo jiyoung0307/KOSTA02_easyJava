@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42199f54-7f30-4562-9186-d9dbc8cb4cab" name="Changes" comment="Day10">
-      <change beforePath="$PROJECT_DIR$/easyJava/src/chapter09/Generic/GenericClass1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easyJava/src/chapter09/Generic/GenericClass1Demo.java" afterDir="false" />
+    <list default="true" id="42199f54-7f30-4562-9186-d9dbc8cb4cab" name="Changes" comment="Day11 ver1.0">
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/Performance1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/PerformanceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/QueueDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/StackDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyJava/src/chapter11/IteratoeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easyJava/src/chapter11/IteratoeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/[KOSTA]02.easyJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/[KOSTA]02.easyJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +55,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/02.javaClone&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/00.KotlinAndSpringBoot&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
@@ -58,16 +64,17 @@
       <recent name="D:\[KOSTA]02.easyJava\easyJava\src\chapter09\Generic" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="easyJava.src.chapter11" />
       <recent name="easyJava.src.chapter09.Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericClass1Demo">
-    <configuration name="GenericClass1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter09.Generic.GenericClass1Demo" />
+  <component name="RunManager" selected="Application.HashSetDemo">
+    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.HashSetDemo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter09.Generic.*" />
+          <option name="PATTERN" value="easyJava.src.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethod3Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter09.Generic.GenericMethod3Demo" />
+    <configuration name="Performance1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.Performance1Demo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter09.Generic.*" />
+          <option name="PATTERN" value="easyJava.src.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter09.Generic.GenericMethodDemo" />
+    <configuration name="PerformanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.PerformanceDemo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter09.Generic.*" />
+          <option name="PATTERN" value="easyJava.src.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter09.Generic.PersonTest" />
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.QueueDemo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter09.Generic.*" />
+          <option name="PATTERN" value="easyJava.src.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter09.Generic.StudentTest" />
+    <configuration name="QueueDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.QueueDemo1" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter09.Generic.*" />
+          <option name="PATTERN" value="easyJava.src.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericClass1Demo" />
-        <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.GenericMethod3Demo" />
-        <item itemvalue="Application.GenericMethodDemo" />
+        <item itemvalue="Application.HashSetDemo" />
+        <item itemvalue="Application.QueueDemo1" />
+        <item itemvalue="Application.QueueDemo" />
+        <item itemvalue="Application.Performance1Demo" />
+        <item itemvalue="Application.PerformanceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692779438383</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Day11 Day10 정리">
+      <option name="closed" value="true" />
+      <created>1692841840101</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692841840101</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Day11 ver1.0">
+      <option name="closed" value="true" />
+      <created>1692845937120</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692845937120</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +300,8 @@
     <MESSAGE value="Day10 Ver1.3" />
     <MESSAGE value="Day10 BoxTest 채우기" />
     <MESSAGE value="Day10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day10" />
+    <MESSAGE value="Day11 Day10 정리" />
+    <MESSAGE value="Day11 ver1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day11 ver1.0" />
   </component>
 </project>

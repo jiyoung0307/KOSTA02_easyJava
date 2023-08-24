@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class IteratoeDemo {
   public static void main(String[] args) {
-    Collection<String> list = Arrays.asList("다람쥐", "개구리", "나비");    // new 사용 불가
+    Collection<String> list = Arrays.asList("다람쥐", "개구리", "나비");    // new 사용 불가(인터페이스니까)
 
 //    Ctrl + Alt + V
     Iterator<String> iterator = list.iterator();
