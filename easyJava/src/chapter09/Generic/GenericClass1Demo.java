@@ -11,7 +11,7 @@ public class GenericClass1Demo {
      * 제네릭 타입 의미)
      * - 하나의 코드로 다양한 타입의 객체에 재사용하는 객체지향 기법
      * - 결정되지 않은 타입을 파라미터를 갖는 클래스와 인터페이스를 제네릭 타입이라고 함
-     * - 클래스, 인터페이스, 메서드를 정의할 떄 타입을 변수로 사용'
+     * - 클래스, 인터페이스, 메서드를 정의할 떄 타입을 변수로 사용
      *
      * 장점)
      * - 컴파일할 때 실행 도중 발생할 오류 사전 방지(타입의 안정성 제공)
@@ -31,7 +31,8 @@ public class GenericClass1Demo {
     arrayListBeer.add(new Beer());
     //arrayListBeer.add(new Boricha())
 
-    Cup c = new Cup();
+
+    Cup c = new Cup();    // Raw 타입
     c.setBeverage(new Boricha());
     if (c.getBeverage() instanceof Boricha) {
       Boricha boricha = (Boricha) c.getBeverage();
@@ -40,10 +41,14 @@ public class GenericClass1Demo {
     }
 
     c.setBeverage(new Beer());
-    Beer beer = (Beer) c.getBeverage();
+//    Beer beer = (Beer) c.getBeverage();
+    Boricha bori = (Boricha) c.getBeverage();   // 동적 바인딩
+    bori.drink();
+
     c.setBeverage(new Beverage());
-    c.setBeverage(new Object());
+//    c.setBeverage(new Object());     // 범위를 한정했으므로 error 발생
     //beer= (Beer) c.getBeverage();    // error 발생
+    Boricha bev = (Boricha) c.getBeverage();
 
     Cup<Boricha> borichaCup = new Cup();
     borichaCup.setBeverage(new Boricha());
@@ -52,20 +57,34 @@ public class GenericClass1Demo {
     Cup<Beer> beerCup = new Cup<>();
     beerCup.setBeverage(new Beer());
     //beerCup.setBeverage(new Boricha());
-    beer = beerCup.getBeverage();
+    Beer beverage = beerCup.getBeverage();
   }
 }
 
 /* Generic T로 선언 */
 
-class Beverage {}
-class Boricha extends Beverage{}
-class Beer extends Beverage{}
-class Cup<T> {
+class Beverage {
+}
+
+class Boricha extends Beverage {
+  void drink() {
+    System.out.println("어린아이만 마실 수 있다.");
+  }
+}
+
+class Beer extends Beverage {
+  void cheers() {
+    System.out.println("어른만 마실 수 있다.");
+  }
+}
+
+class Cup<T extends Beverage> {   // Beverage를 상속 받은 애들로만 범위 한정
   private T beverage;
+
   public T getBeverage() {
     return beverage;
   }
+
   public void setBeverage(T beverage) {
     this.beverage = beverage;
   }
