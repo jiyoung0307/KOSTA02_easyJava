@@ -1,11 +1,8 @@
-package easyJava.src.chapter11;
+package easyJava.src.chapter15;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
-public class ListCollectionDemo {
+public class ListDemo {
   public static void main(String[] args) {
     String[] animals = {"호랑이", "사자", "사슴", "곰"};
 
@@ -41,6 +38,11 @@ public class ListCollectionDemo {
         return o1.length() - o2.length();   // Natural Sort(길이가 짧은 순으로 sort)
       }
     });
+
+      // lambda식으로 바꿔보자
+
+
+
     System.out.println(list);
   }
 }

@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42199f54-7f30-4562-9186-d9dbc8cb4cab" name="Changes" comment="Day11 ver1.0">
-      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/Performance1Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/PerformanceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/QueueDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/StackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easyJava/src/chapter11/IteratoeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easyJava/src/chapter11/IteratoeDemo.java" afterDir="false" />
+    <list default="true" id="42199f54-7f30-4562-9186-d9dbc8cb4cab" name="Changes" comment="Day11 chap11 프로그래밍 문제 1번, 2번">
+      <change afterPath="$PROJECT_DIR$/easyJava/src/Example/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/challenge11/HashTableScoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/challenge11/StudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/EtcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/HashMap1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/SearchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/ShuffleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter11/SortDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/[KOSTA]02.easyJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/[KOSTA]02.easyJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,17 +52,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/00.KotlinAndSpringBoot&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/[KOSTA]02.easyJava",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\[KOSTA]02.easyJava\easyJava\src\chapter09\Generic" />
@@ -68,9 +72,9 @@
       <recent name="easyJava.src.chapter09.Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetDemo">
-    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.HashSetDemo" />
+  <component name="RunManager" selected="Application.HashTableScoreExample">
+    <configuration name="EtcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.EtcDemo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Performance1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.Performance1Demo" />
+    <configuration name="HashMap1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.HashMap1Demo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.PerformanceDemo" />
+    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.HashMapDemo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.QueueDemo" />
+    <configuration name="HashTableScoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.challenge11.HashTableScoreExample" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter11.*" />
+          <option name="PATTERN" value="easyJava.src.challenge11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.QueueDemo1" />
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter11.MapDemo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashSetDemo" />
-        <item itemvalue="Application.QueueDemo1" />
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.Performance1Demo" />
-        <item itemvalue="Application.PerformanceDemo" />
+        <item itemvalue="Application.HashTableScoreExample" />
+        <item itemvalue="Application.MapDemo" />
+        <item itemvalue="Application.HashMapDemo" />
+        <item itemvalue="Application.HashMap1Demo" />
+        <item itemvalue="Application.EtcDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692845937120</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Day11 ver1.1">
+      <option name="closed" value="true" />
+      <created>1692858114541</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692858114541</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Day11 chap11 프로그래밍 문제 1번, 2번">
+      <option name="closed" value="true" />
+      <created>1692863031681</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692863031681</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +322,8 @@
     <MESSAGE value="Day10" />
     <MESSAGE value="Day11 Day10 정리" />
     <MESSAGE value="Day11 ver1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day11 ver1.0" />
+    <MESSAGE value="Day11 ver1.1" />
+    <MESSAGE value="Day11 chap11 프로그래밍 문제 1번, 2번" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day11 chap11 프로그래밍 문제 1번, 2번" />
   </component>
 </project>
