@@ -17,13 +17,19 @@ public class StreamDemo {
     }
 
     /* 별도의 저장 공간 2 */
-    //      10보다 큰 값들을 별도로 저장해보자
+    // 10보다 큰 값들을 별도로 저장해보자
     List<Integer> gt10 = new ArrayList<>();
     for (Integer i : list) {
-      if(i > 10) gt10.add(i);
+      if (i > 10) gt10.add(i);
     }
 
     Collections.sort(gt10);
     System.out.println(gt10);
+
+
+    list.stream()
+        .filter(i -> i > 10)
+        .sorted()
+        .forEach(x -> System.out.println(x));
   }
 }
