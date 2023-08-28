@@ -30,6 +30,6 @@ public class StreamDemo {
     list.stream()
         .filter(i -> i > 10)
         .sorted()
-        .forEach(x -> System.out.println(x));
+        .forEach(x -> System.out.print(x + " "));
   }
 }
