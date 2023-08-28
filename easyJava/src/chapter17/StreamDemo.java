@@ -12,7 +12,7 @@ public class StreamDemo {
 //    기본 패키지에 있는 Random을 꺼내보자
     Random r = new Random();
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {    // 30보다 작은 애들을 10번 돌려라
       list.add(r.nextInt(30));
     }
 
