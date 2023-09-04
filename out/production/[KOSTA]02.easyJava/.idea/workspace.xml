@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42199f54-7f30-4562-9186-d9dbc8cb4cab" name="Changes" comment="Day 12">
-      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter17/StreamDemo.java" afterDir="false" />
+    <list default="true" id="42199f54-7f30-4562-9186-d9dbc8cb4cab" name="Changes" comment="Day 13 Stream FindFirst and FindAny">
+      <change afterPath="$PROJECT_DIR$/easyJava/src/Example/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/challenge17/AvgAgeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/challenge17/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/challenge17/JobFilterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/challenge17/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/challenge17/StringStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter14/ThreadDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter14/ThreadDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter14/ThreadDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter14/ThreadDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter14/TreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter17/Reduce1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter17/Reduce2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyJava/src/chapter17/StatisticDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyJava/src/chapter17/Map1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/easyJava/src/chapter17/Map1Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/[KOSTA]02.easyJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/[KOSTA]02.easyJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +58,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/02.CloneJava&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/[KOSTA]02.easyJava/easyJava/src/chapter14",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\[KOSTA]02.easyJava\easyJava\src\chapter14" />
       <recent name="D:\[KOSTA]02.easyJava\easyJava\src\chapter09\Generic" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -65,13 +82,13 @@
       <recent name="easyJava.src.chapter09.Generic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.challenge16.Example" />
+  <component name="RunManager" selected="Application.TreadPoolDemo">
+    <configuration name="AvgAgeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.challenge17.AvgAgeExample" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.challenge16.*" />
+          <option name="PATTERN" value="easyJava.src.challenge17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.challenge16.FunctionExample" />
+    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter14.ThreadDemo1" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.challenge16.*" />
+          <option name="PATTERN" value="easyJava.src.chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterface3Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter10.FunctionalInterface3Demo" />
+    <configuration name="ThreadDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter14.ThreadDemo3" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter10.*" />
+          <option name="PATTERN" value="easyJava.src.chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.challenge11.HashMapExample" />
+    <configuration name="ThreadDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter14.ThreadDemo4" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.challenge11.*" />
+          <option name="PATTERN" value="easyJava.src.chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter17.StreamDemo" />
+    <configuration name="TreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyJava.src.chapter14.TreadPoolDemo" />
       <module name="[KOSTA]02.easyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easyJava.src.chapter17.*" />
+          <option name="PATTERN" value="easyJava.src.chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamDemo" />
-        <item itemvalue="Application.FunctionExample" />
-        <item itemvalue="Application.Example" />
-        <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="Application.FunctionalInterface3Demo" />
+        <item itemvalue="Application.TreadPoolDemo" />
+        <item itemvalue="Application.ThreadDemo4" />
+        <item itemvalue="Application.ThreadDemo3" />
+        <item itemvalue="Application.ThreadDemo1" />
+        <item itemvalue="Application.AvgAgeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +311,63 @@
       <option name="project" value="LOCAL" />
       <updated>1692952823327</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Day 13 Stream 기초">
+      <option name="closed" value="true" />
+      <created>1693185393645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1693185393645</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Day 13 Stream 기초">
+      <option name="closed" value="true" />
+      <created>1693185593607</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693185593607</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Day 13 Stream 기초_수정1">
+      <option name="closed" value="true" />
+      <created>1693185670945</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693185670945</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Day 13 Stream 느긋한 연산, 조급한 연산">
+      <option name="closed" value="true" />
+      <created>1693189762587</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1693189762587</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Day 13 Stream Mapping">
+      <option name="closed" value="true" />
+      <created>1693201212046</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1693201212046</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Day 13 Stream Mathch">
+      <option name="closed" value="true" />
+      <created>1693204074938</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693204074938</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Day 13 Stream FindFirst and FindAny">
+      <option name="closed" value="true" />
+      <created>1693204899165</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1693204899165</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +399,12 @@
     <MESSAGE value="Day11 ver1.1" />
     <MESSAGE value="Day11 chap11 프로그래밍 문제 1번, 2번" />
     <MESSAGE value="Day 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 12" />
+    <MESSAGE value="Day 13 Stream 기초" />
+    <MESSAGE value="Day 13 Stream 기초_수정1" />
+    <MESSAGE value="Day 13 Stream 느긋한 연산, 조급한 연산" />
+    <MESSAGE value="Day 13 Stream Mapping" />
+    <MESSAGE value="Day 13 Stream Mathch" />
+    <MESSAGE value="Day 13 Stream FindFirst and FindAny" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 13 Stream FindFirst and FindAny" />
   </component>
 </project>
